@@ -18,7 +18,15 @@ Route:: get ("/" , function () {
    
 } ); 
 
-Route:: get ("/about" , function () {
+
+
+Route:: get ("/services", function () { 
+  return view ("services") ; 
+}) ; 
+  
+
+
+Route:: get ("/about"  , function () {
     return view ("about") ;
 } ); 
 
@@ -28,8 +36,5 @@ Route:: get("/user" , function () {
 
 
 
-Route::get('/heelo/{id}', function ($id) {
-    return "welecom " . $id  ;
-})->name ("wlecom"); 
-Auth::routes();
+
 
