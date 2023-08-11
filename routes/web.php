@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\TemplateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,23 +14,25 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route:: get ("/" , function () {
-   
+Route:: get ("/" , 
+    function () {
     return view('home') ;
    
 } ); 
 
 
+// Route :: get ("Router" , Controller ) 
 
-Route:: get ("/services", function () { 
-  return view ("services") ; 
-}) ; 
-  
+
+Route:: get ("/services", [ServicesController::class, 'index'] ) ; 
+Route:: get ("/services/{id}", [ServicesController::class, 'show'] ) ; 
+
 
 
 Route:: get ("/about"  , function () {
     return view ("about") ;
 } ); 
+Route:: get ("/Template"  , [TemplateController::class, 'index']); 
 
 Route:: get("/user" , function () {
     return "This is Get User Page "  ;

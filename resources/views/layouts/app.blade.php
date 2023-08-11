@@ -7,49 +7,42 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>App layout </title>
+    <title> TempHoster </title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <!--- !--> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+    <link rel ="stylesheet" href="css/app.css" />
+<style >
+    .mainboy {
+    min-height:  90vh;
+}
+    </style> 
 </head>
 
 <body>
     <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info  bg-gradient">
-        <a class="navbar-brand tex btn font-weight-bold" href="#"> HTML hoster | </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about">About</a>
-                </li>
-               
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-        <main class="py-4"> 
-            @yield('content')
-        </main>
-        <h5 style="color: red" >
-         @yield ('footer') 
-         <h5> 
+    <!-- blade -->  
+    @include ("componants.nav") 
+    <div class="container p-3 mainboy ">
+    @yield('content')
+    </div>
+        
+    
+    <footer class="bg-dark text-white text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright: 
+    <a class="text-white text-bold" href="">Powerd By : SPU Team  Maya , Maher , Mohammad </a>
+  </div>
+  <!-- Copyright -->
+</footer>
+        <div class= "text-center footer " >
+<span >  </span> 
+ </div> 
+         
     </div>
 </body>
 </html>
