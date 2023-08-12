@@ -30,13 +30,19 @@ Route:: get ("/services/{id}", [ServicesController::class, 'show'] ) ;
 
 
 Route:: get ("/about"  , function () {
-    return view ("about") ;
+    
+    return view ("about" ) ;
 } ); 
 Route:: get ("/Template"  , [TemplateController::class, 'index']); 
 
 Route:: get("/user" , function () {
     return "This is Get User Page "  ;
 }) ; 
+
+Route:: get ("/test"  , function () {
+    
+    return "test" ;
+} ); 
 
 
 
