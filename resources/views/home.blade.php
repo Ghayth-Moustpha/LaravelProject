@@ -15,7 +15,7 @@
           <a href="#" class="btn btn-primary btn-lg">View Templates</a>
         </div>
         <div class="col-lg-6">
-          <img src="images/hero-image.jpg" alt="Hero Image" class="img-fluid">
+          <img src="https://i.ytimg.com/vi/ralQKHBYGlc/maxresdefault.jpg" alt="Hero Image" class="img-fluid">
         </div>
       </div>
     </div>
@@ -63,6 +63,49 @@
         
 
 </div>
+<section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="display-4">Discover Our Amazing Web Project</h2>
+          <p class="lead">this is A core php web application try to help with the development process under CMMI (Capability Maturity Model Integration) is typically referred to as a "CMMI tool" or a "CMMI software tool." These tools are designed to support the implementation of CMMI best practices and help organizations improve their development processes.</p>
+          <a href="https://cpl.eliejah.com" class="btn btn-danger btn-lg">Go To cpl.eliejah.com</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/cpl.jpg" alt="Web Project" class="img-fluid" target="_blank">
+        </div>
+      </div>
+    </div>
+  </section>
+  <header class="bg-dark text-light p-2">
+    <div class="container text-center">
+      <h1 class="display-4 h3 font-weight-bold">Temp<span class="text-danger">Hoster</span>  Team</h1>
+    </div>
+  </header>
+<section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{{asset('img/maya.jpg')}}" alt="Student 1" class="img-fluid mb-3">
+          <h2>Maya Al-Ahmad </h2>
+          <p>Software Engineering Student</p>
+          <p>Maya  is a passionate software engineer with a focus on developing innovative projects. He believes in using technology to solve real-world problems and make a positive impact on society.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="{{asset('img/mohammad.jpg')}}" alt="Student 2" class="img-fluid mb-3">
+          <h2>Mohammad Hariri</h2>
+          <p>Software Engineering Student</p>
+          <p>Mohammad loves coding and creating software applications that improve people's lives. She enjoys collaborating with others and exploring new technologies to expand her skills and knowledge.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="{{asset('img/maher.jpg')}}" alt="Student 3" class="img-fluid mb-3">
+          <h2>Maher Abo-Shanab</h2>
+          <p>Software Engineering Student</p>
+          <p>Maher is a dedicated software engineer who is passionate about creating impactful projects. He believes that technology can drive positive change and enjoys working on projects that make a difference.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 @endsection
 
 
