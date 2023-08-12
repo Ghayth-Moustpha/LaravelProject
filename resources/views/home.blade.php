@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -8,6 +9,7 @@
         
         <section class="hero">
     <div class="container">
+
       <div class="row align-items-center">
         <div class="col-lg-6">
           <h1 class="display-4">Find the Perfect Template for Your Website</h1>
@@ -89,13 +91,13 @@
           <img src="{{asset('img/maya.jpg')}}" alt="Student 1" class="img-fluid mb-3">
           <h2>Maya Al-Ahmad </h2>
           <p>Software Engineering Student</p>
-          <p>Maya  is a passionate software engineer with a focus on developing innovative projects. He believes in using technology to solve real-world problems and make a positive impact on society.</p>
+          <p>Maya  is a passionate software engineer with a focus on developing innovative projects. she believes in using technology to solve real-world problems and make a positive impact on society.</p>
         </div>
         <div class="col-md-4">
           <img src="{{asset('img/mohammad.jpg')}}" alt="Student 2" class="img-fluid mb-3">
           <h2>Mohammad Hariri</h2>
           <p>Software Engineering Student</p>
-          <p>Mohammad loves coding and creating software applications that improve people's lives. She enjoys collaborating with others and exploring new technologies to expand her skills and knowledge.</p>
+          <p>Mohammad loves coding and creating software applications that improve people's lives. phphe enjoys collaborating with others and exploring new technologies to expand her skills and knowledge.</p>
         </div>
         <div class="col-md-4">
           <img src="{{asset('img/maher.jpg')}}" alt="Student 3" class="img-fluid mb-3">
@@ -107,6 +109,5 @@
     </div>
   </section>
 @endsection
-
 
 
