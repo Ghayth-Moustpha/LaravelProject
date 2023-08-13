@@ -14,8 +14,9 @@
                     <img src="{{ $temp['image'] }}" class="card-img-top" alt="Service Image">
                     <div class="card-body">
                         <h5 class="card-title">{{ $temp['name'] }}</h5>
-                        <a  download href="{{asset($temp['download'])}}" class="btn btn-primary">Download</a>
-                        <a  download href="{{asset($temp['download'])}}" class="btn btn-danger">Demo</a>
+
+                        <a  download href="{{asset($temp['download'])}}" class="btn btn-primary m-2">Download</a>
+                        <a  download href="{{asset($temp['download'])}}" class="btn btn-danger m-2">Demo</a>
                     </div>
                 </div>
             </div>

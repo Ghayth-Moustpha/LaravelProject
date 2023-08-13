@@ -24,43 +24,7 @@
   </section>
 
   <!-- Featured Templates Section -->
-  <section class="featured-templates py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Featured Templates</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card mb-4">
-            <img src="images/template1.jpg" class="card-img-top" alt="Template 1">
-            <div class="card-body">
-              <h5 class="card-title">Template 1</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptate.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-4">
-            <img src="images/template2.jpg" class="card-img-top" alt="Template 2">
-            <div class="card-body">
-              <h5 class="card-title">Template 2</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptate.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-4">
-            <img src="images/template3.jpg" class="card-img-top" alt="Template 3">
-            <div class="card-body">
-              <h5 class="card-title">Template 3</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptate.</p>
-              <a href="#" class="btn btn-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
             </div>
         
 
